@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import Hero from './components/Hero';
 import About from './components/About';
 import Skills from './components/Skills';
@@ -11,7 +10,7 @@ function App() {
       {/* Navigation */}
       <nav className="fixed top-0 w-full bg-white/80 backdrop-blur-md z-50 border-b border-gray-100">
         <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
-          <a href="#hero" className="text-xl font-bold text-gray-900">NAVYA M </a>
+          <a href="#hero" className="text-xl font-bold text-gray-900">Navya</a>
           <div className="hidden md:flex gap-8">
             <a href="#about" className="text-sm text-gray-600 hover:text-gray-900 transition">About</a>
             <a href="#skills" className="text-sm text-gray-600 hover:text-gray-900 transition">Skills</a>
@@ -31,7 +30,7 @@ function App() {
       {/* Footer */}
       <footer className="bg-gray-50 border-t border-gray-100 py-8">
         <div className="max-w-6xl mx-auto px-6 text-center">
-          <p className="text-sm text-gray-500">© 2026 Navya Manjunath. All rights reserved.</p>
+          <p className="text-sm text-gray-500">© 2026 Navya. All rights reserved.</p>
         </div>
       </footer>
     </div>
